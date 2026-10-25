@@ -1,0 +1,30 @@
+header{
+    color: white;
+    background-color: blue;
+    border: 1px solid;
+    border-radius: 2px;
+    text-align: center;
+}
+
+body{
+   padding: 50px;
+   border: 1px groove;
+
+
+button{
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+     background-color: rgb(242, 246, 247);
+     color: rgb(13, 61, 181);
+
+}
+
+p{
+    color: crimson;
+    font-size: 30px;
+}
+
+b{
+    color: darkblue;
+}
