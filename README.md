@@ -3,7 +3,7 @@
 GitHub Profile README
 Copy the text below into a file named README.md in your new GitHub profile repository. The text is provided in
 Markdown format.
-# n Hi, I'm Yashavanth K!
+#  Hi, I'm Yashavanth K!
 ### n BCA Student | Full Stack Developer in Progress | NIMCET Aspirant
 Welcome to my GitHub profile! n
 I'm a BCA student passionate about web development, programming, and building real-world projects. I'm documenting my learning journey one step at a time and working towards becoming an **Elite Full Stack Developer**.
