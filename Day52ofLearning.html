@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="Day52ofLearning.css">
+    <script src="Day52ofLearning.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Password Generator 🔐</h1>
+        <p class="subtitle">Create a strong and secure password</p>
+
+        <div class="password-box">
+            <input
+                type="text"
+                id="password"
+                placeholder="Your password appears here"
+                readonly
+            >
+            <button id="copyBtn" class="copy-btn" type="button">
+                Copy
+            </button>
+        </div>
+
+        <p id="message" aria-live="polite"></p>
+
+        <div class="length-box">
+            <label for="length">Password Length</label>
+            <span id="lengthValue">12</span>
+        </div>
+
+        <input type="range" id="length" min="8" max="32" value="12">
+
+        <div class="options">
+            <label>
+                <input type="checkbox" id="uppercase" checked>
+                Uppercase (A-Z)
+            </label>
+
+            <label>
+                <input type="checkbox" id="lowercase" checked>
+                Lowercase (a-z)
+            </label>
+
+            <label>
+                <input type="checkbox" id="numbers" checked>
+                Numbers (0-9)
+            </label>
+
+            <label>
+                <input type="checkbox" id="symbols">
+                Symbols (!@#$)
+            </label>
+        </div>
+
+        <button id="generateBtn" class="generate-btn" type="button">
+            Generate Password
+        </button>
+
+        <p class="footer">Keep your passwords safe! 💜</p>
+    </div>
+
+</body>
+</html>
