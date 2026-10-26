@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #39245f);
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 430px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #d1c6e8;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.password-box {
+    display: flex;
+    gap: 8px;
+}
+
+#password {
+    width: 100%;
+    min-width: 0;
+    padding: 14px 10px;
+    border: 1px solid #7654a9;
+    border-radius: 9px;
+    background: #211633;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+button {
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 0.85;
+    transform: translateY(-1px);
+}
+
+.copy-btn {
+    padding: 0 15px;
+    background: #ffffff;
+    color: #39245f;
+}
+
+#message {
+    min-height: 22px;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #bfffc9;
+}
+
+.length-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+#lengthValue {
+    color: #d5b7ff;
+    font-size: 18px;
+}
+
+#length {
+    width: 100%;
+    accent-color: #b68cff;
+    cursor: pointer;
+    margin-bottom: 22px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px 10px;
+    margin-bottom: 28px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.options input {
+    accent-color: #a56cff;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.generate-btn {
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(90deg, #8145d9, #b45de5);
+}
+
+.footer {
+    margin-top: 22px;
+    text-align: center;
+    font-size: 12px;
+    color: #d1c6e8;
+}
+
+@media (max-width: 380px) {
+    .container {
+        padding: 22px 17px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .options {
+        grid-template-columns: 1fr;
+    }
+}
