@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DevHub | Developer Command Center</title>
+    <link rel="stylesheet" href="Day53ofLearning.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🚀 My DevHub</h1>
+        <p>Your Personal Developer Command Center</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>👋 Welcome!</h2>
+            <p>Welcome to your personal developer workspace.</p>
+            <p id="date"></p>
+            <p id="clock"></p>
+            <button id="themeBtn" type="button">🌙 Dark / Light</button>
+        </section>
+
+        <section class="card">
+            <h2>📝 My Tasks</h2>
+
+            <label for="task">Enter a task:</label>
+
+            <div class="task-input">
+                <input
+                    type="text"
+                    id="task"
+                    placeholder="Example: Learn JavaScript"
+                >
+                <button id="addTaskBtn" type="button">Add Task</button>
+            </div>
+
+            <p id="result" aria-live="polite"></p>
+
+            <ul id="taskList"></ul>
+        </section>
+
+        <section class="card">
+            <h2>📊 Progress Tracker</h2>
+
+            <p id="totalTask">Total Tasks: 0</p>
+            <p id="completedTask">Completed Tasks: 0</p>
+            <p id="remainingTask">Remaining Tasks: 0</p>
+            <p id="percentage">Completion: 0%</p>
+
+            <div class="progress-track">
+                <div id="progressBar"></div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>💡 Random Coding Quotes</h2>
+
+            <p id="randomQuotes">Keep learning, one line at a time!</p>
+
+            <button id="quoteBtn" type="button">New Quote</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 | My DevHub — Keep Learning, Keep Building! 💻</p>
+    </footer>
+    <script src="Day53ofLearning.js"></script>
+
+</body>
+</html>
