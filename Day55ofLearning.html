@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Expense Tracker</title>
+
+    <link rel="stylesheet" href="Day55ofLearning.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>💰 Expense Tracker</h1>
+            <p>Track your spending, manage your money!</p>
+        </header>
+
+        <section class="total-card">
+            <p>Total Expenses</p>
+            <h2 id="totalAmount">₹0.00</h2>
+            <p id="expenseCount">0 expenses recorded</p>
+        </section>
+
+        <section class="expense-form">
+            <h2>➕ Add New Expense</h2>
+
+            <label for="expenseName">Expense Name</label>
+            <input
+                type="text"
+                id="expenseName"
+                placeholder="e.g. Food, Travel, Books"
+            >
+
+            <label for="expenseAmount">Amount (₹)</label>
+            <input
+                type="number"
+                id="expenseAmount"
+                placeholder="Enter amount"
+                min="0.01"
+                step="0.01"
+            >
+
+            <button id="addExpenseBtn">Add Expense</button>
+
+            <p id="message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="expense-history">
+            <h2>📋 Expense History</h2>
+
+            <ul id="expenseList">
+
+            </ul>
+
+            <p id="emptyMessage">No expenses yet. Add your first expense!</p>
+
+            <button id="clearAllBtn" class="clear-btn" type="button">
+                Clear All Expenses
+            </button>
+        </section>
+
+        <footer>
+            <p>© 2026 K. Yashavanth | Day 55 of My 90 Days Journey</p>
+            <p>Built with HTML, CSS & JavaScript 💻</p>
+        </footer>
+
+    </div>
+
+    <script src="Day55ofLearning.js"></script>
+</body>
+</html>
