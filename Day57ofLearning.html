@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Smart Shopping Cart</title>
+
+<link rel="stylesheet" href="Day57ofLearning.css">
+
+</head><body><div class="container">
+
+    <header>
+        <h1>🛒 Smart Shopping Cart</h1>
+    </header>
+
+    <hr>
+
+    <form id="cartform">
+
+        <label>Product Name</label><br>
+        <input type="text" id="productInput"
+            placeholder="Enter product name" required>
+
+        <br><br>
+
+        <label>Price (₹)</label><br>
+        <input type="number" id="priceInput"
+            placeholder="Enter price"
+            min="0.01" step="0.01" required>
+
+        <br><br>
+
+        <label>Quantity</label><br>
+        <input type="number" id="quantity"
+            min="1" value="1" step="1" required>
+
+        <br><br>
+
+        <button type="submit" id="cartBtn">
+            Add to Cart
+        </button>
+
+    </form>
+
+    <hr>
+
+    <h2>🛍️ Your Products</h2>
+
+    <div id="cart">
+        Your cart is empty.
+    </div>
+
+    <hr>
+
+    <h3 id="Total">Grand Total: ₹0</h3>
+
+</div>
+
+<script src="Day57ofLearning.js"></script>
+
+</body>
+</html>

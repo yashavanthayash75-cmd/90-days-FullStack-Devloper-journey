@@ -1,0 +1,62 @@
+body{
+    background-color: lightgrey;
+}
+
+.container{
+    background: white;
+   margin: 10px 100px;
+    padding: 10px 100px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+header{
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+input{
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 20px;
+    box-shadow: 2px 2px blanchedalmond;
+    padding: 10px;
+    margin: 8px;
+    width: 80%;
+}
+
+label{
+    font-size: 30px;
+    color: crimson;
+}
+
+button{
+    font-size: 25px;
+    color: rgb(255, 0, 102);
+    background-color: rgb(4, 240, 162);
+    border: 1px solid rgb(47, 9, 236);
+    border-radius: 4px;
+
+}
+
+button:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+#Total{
+    font-size: large;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+p{
+    color:  rgb(0, 68, 255); 
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(252, 1, 1);
+
+}
