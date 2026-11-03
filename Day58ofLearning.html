@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART FINANCE TRACKER</title>
+    <link rel="stylesheet" href="Day58ofLearning.css">
+</head>
+<body>
+    <header>
+        <h1>SMART FINANCE TRACKER</h1>
+        <p>Manage your money wisely</p>
+    </header>
+    <hr>
+    <br>
+<h3>Your Balance</h3>
+<br>
+<p id="balance">Remaining Balance:</p>
+<br>
+<p id="income">Income:</p>
+<br>
+<p id="expenses">Expenses:</p>
+<br>
+
+<form>
+    <label>Transaction Name</label><br>
+    <input type="text" id="transaction" placeholder="e.g. Monthly Salary"><br><br>
+    <label>Amount</label><br>  
+    <input type="number" id="amount" placeholder="Enter amount"><br><br>
+    <label>Transaction Type</label><br>
+    <select id="transactionType">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+    </select><br><br>
+    <button type="button" id="addTransactionBtn">Add Transaction</button>
+</form>
+<hr>
+    <br>
+    <h3>Transaction History</h3>
+    <ul id="transactionHistory"></ul>
+
+    <script src="Day58ofLearning.js"></script>
+</body>
+</html>
