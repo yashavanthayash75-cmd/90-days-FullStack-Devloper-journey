@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Analytics Dashboard</title>
+    <link rel="stylesheet" href="Day59ofLearning.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>🎓 Student Analytics Dashboard</h1>
+        <p>Track and Analyze Student Performance</p>
+    </header>
+
+    <hr>
+
+    <h2>ADD NEW STUDENT</h2>
+
+    <label for="studentName">Student Name:</label>
+    <input type="text" id="studentName" placeholder="Enter student name">
+
+    <br><br>
+
+    <label for="JavaMarks">Java Marks:</label>
+    <input type="number" id="JavaMarks" placeholder="Enter student score" min="0" max="100">
+
+    <br><br>
+
+    <label for="DBMSMarks">DBMS Marks:</label>
+    <input type="number" id="DBMSMarks" placeholder="Enter student score" min="0" max="100">
+
+    <br><br>
+
+    <label for="JavaScript">JavaScript Marks:</label>
+    <input type="number" id="JavaScript" placeholder="Enter student score" min="0" max="100">
+
+    <br><br>
+
+    <button id="addStudentBtn">Add Student</button>
+
+    <hr>
+
+    <h2>PERFORMANCE OVERVIEW</h2>
+
+    <p>Total Students: <span id="totalStudents">0</span></p>
+    <p>Average Marks: <span id="averageMarks">0</span></p>
+    <p>Passed Students: <span id="passedStudents">0</span></p>
+    <p>Failed Students: <span id="failedStudents">0</span></p>
+
+    <hr>
+
+    <h2>STUDENT RECORDS</h2>
+
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Java</th>
+                <th>DBMS</th>
+                <th>JavaScript</th>
+                <th>Total</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+
+        <tbody id="studentRecords">
+        </tbody>
+    </table>
+
+    <hr>
+
+    <label for="searchInput">Search Student:</label>
+    <input type="text" id="searchInput" placeholder="Enter student name">
+
+    <br><br>
+
+    <button id="searchBtn">Search</button>
+
+    <br><br>
+
+    <button id="sortBtn">SORT BY MARKS</button>
+
+    <br><br>
+
+</div>
+
+<script src="Day59ofLearning.js"></script>
+
+</body>
+</html>
