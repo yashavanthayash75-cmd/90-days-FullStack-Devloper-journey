@@ -1,0 +1,68 @@
+body {
+    font-family: Arial;
+    background-color: #dbeafe;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #1e3a8a;
+}
+
+.type {
+    font-size: 22px;
+    font-weight: bold;
+    color: blue;
+}
+
+#textToType {
+    background-color: lightblue;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.starts-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.starts-container p {
+    background-color: #dbeafe;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+footer {
+    margin-top: 30px;
+    color: gray;
+}
