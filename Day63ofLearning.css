@@ -1,0 +1,78 @@
+body{
+ background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    margin: 20px 100px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #105984, #ffffff);
+    border:#105984 2px solid;
+    border-radius: 10px;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #191f74 ;
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+}
+
+label{
+    color: chartreuse;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    width: 600px;
+    font-size: large;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid rgb(178, 185, 243);
+    border-radius: 4px;
+}
+
+select{
+    width: 600px;
+    font-size: large;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid rgb(178, 185, 243);
+    border-radius: 4px;
+}
+
+button{
+    font-size: 25px;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    background-color: rgb(237, 13, 125);
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.result{
+    background-color: #191f74;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: large;
+
+}
+
+.results{
+    color: #105984;
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px yellowgreen;
+}
+
+footer{
+    color: rgba(2, 160, 252, 0.887);
+    text-align: center;
+    font-size: 20px;
+}
